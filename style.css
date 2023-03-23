@@ -1,0 +1,68 @@
+/* Style the game container */
+#game-container {
+    position: relative;
+    margin: 50px auto;
+    width: 170px;
+    text-align: center;
+  }
+  
+  /* Style the game title */
+  #game-title {
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  /* Style the table and cells */
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to cells */
+  td:hover {
+    background-color: #eee;
+  }
+  
+  /* Style the reset button */
+  #reset-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the scoreboard */
+  #scoreboard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the player labels */
+  .player-label {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
